@@ -1,0 +1,328 @@
+.work_info {
+	position: relative;
+	margin-bottom: 69px;
+	padding-bottom: 62px;
+	overflow: hidden;
+}
+
+.work_info-title {
+	padding-top: 87px;
+}
+
+.work_info-photo {
+	margin: 28px 15px 40px 15px;
+}
+
+.work_info-element {
+	position: relative;
+}
+
+.hidden {
+	overflow: hidden;
+}
+
+.arrow {
+	position: absolute;
+	left: 47px;
+	top: 4px;
+}
+
+.work_info-background {
+	position: absolute;
+	height: 1897px;
+	left: -1550px;
+	z-index: -1;
+}
+
+.work_info-element-title-1 {
+	margin-top: 70px;
+}
+
+
+@media screen and (min-width: 1300px) {
+	.work_info-background {
+		width: 1300px;
+		height: 1488px;
+		left: 0px;
+	}
+
+	.work_info-element {
+		position: relative;
+		margin-top: 78px;
+	}
+
+	.arrow {
+		left: 0;
+	}
+
+	.work_info {
+		overflow: visible;
+		position: relative;
+		padding-bottom: 166px;
+		padding-left: 290px;
+		margin-bottom: 85px;
+	}
+
+	.work_info-title {
+		width: 233px;
+		padding-top: 39px;
+	}
+
+	.work_info-block,
+	.work_info-photo-2, 
+	.work_info-photo {
+		float: left;
+	}
+
+	.work_info-block,
+	.work_info-photo-2 {
+		float: left;
+	}
+	
+	.work_info-element-title {
+		font-size: 13pt;
+		text-align: left;
+		margin: 0 0 23px 36px;
+	}
+
+	.work_info-block {
+		position: relative;
+		margin-top: 42px; 
+	}
+
+	.work_info-element:first-child {
+		margin-top: 142px;
+	}
+	
+	.work_info-text {
+		width: 308px;
+		margin-left: 36px;
+	}
+	
+	.work_info-text p {
+		margin: 0;
+		text-align: left;
+	}
+
+	.work_info-photo {
+		margin: 0;
+		width: 345px;
+		margin-left: 55px;
+	}
+
+	.work_info-photo-2 {
+		width: 345px;
+	}
+
+	.work_info-block-left {
+		position: relative;
+		padding-left: 73px;
+	}
+
+	.work_info-block-left h2,
+	.work_info-text {
+		margin-left: 0;
+	}
+
+	.work_info-block-left .arrow {
+		left: 31px;
+	}
+
+	.easy {
+		position: absolute;
+		z-index: -1;
+		left: 130px;
+		top: 16px;
+	}
+
+	.speacking {
+		position: absolute;
+		z-index: -1;
+		left: 336px;
+		top: 0;
+	}
+
+	.praktik {
+		position: absolute;
+		z-index: -1;
+		top: 14px;
+		left: 9px;
+	}
+
+	.powtor {
+		position: absolute;
+		z-index: -1;
+		top: 18px;
+		left: 366px;
+	}
+
+	.work_info-element-circle {
+		position: absolute;
+		top: -40px;
+		left: 52px;
+		border-radius: 50%;
+		width: 25px;
+		height: 25px;
+		background-color: #2429ff;
+	}
+
+	.work_info-element-bagel {
+		position: absolute;
+		width: 56px;
+		height: 56px;
+		border: 15px solid #2429ff;
+		top: -37px;
+		left: 292px;
+		border-radius: 50%;
+	}
+
+	.work_info-design-bagel {
+		position: absolute;
+		width: 290px;
+		border-radius: 50%;
+		height: 290px;
+		border: 80px solid #f8f8f8;
+		bottom: -168px;
+		right: 121px;
+		z-index: -1;
+	}
+
+	.work_info-design-wolna {
+		position: absolute;
+		width: 67px;
+		height: 36px;
+		bottom: -11px;
+		right: 90px;
+	}
+	
+	.work_info-design-wolna img,
+	.work_info-design-wolna-2 img {
+		width: 67px;
+	}
+
+	.work_info-design-wolna-2 {
+		position: absolute;
+		width: 67px;
+		height: 36px;
+		bottom: -48px;
+		right: 5px;
+	}
+
+	.work_info-design-circle {
+		position: absolute;
+		bottom: -168px;
+		right: 412px;
+		border-radius: 50%;
+		width: 25px;
+		height: 25px;
+		background-color: #2429ff;
+	}
+
+	.opinion-info-block-text-child {
+		width: 530px;
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	
+
+	.work_info-background {
+		width: 1920px;
+		height: 100%;
+	}
+
+	.work_info {
+		position: relative;
+		padding-left: 392px;
+		padding-bottom: 242px;
+	}
+
+	.work_info-title {
+		width: 348px;
+		padding-top: 62px;
+	}
+
+	.work_info-photo,
+	.work_info-photo-2 {
+		width: 554px;
+	}
+
+	.work_info-block {
+		margin-top: 112px;
+	}
+
+	.work_info-element-title {
+		font-size: 14pt;
+		margin: 0 0 20px 38px;
+	}
+
+	.work_info-text {
+		margin-left: 38px;
+		width: 486px;
+	}
+
+	.easy {
+		width: 426px;
+	}
+
+	.work_info-photo {
+		margin-left: 100px;
+	}
+
+	.work_info-block-left {
+		padding-left: 104px;
+	}
+
+	.work_info-text-2 {
+		margin: 0;
+	}
+
+	.work_info-element {
+		margin-top: 72px;
+	}
+
+	.speacking {
+		top: 56px;
+		left: 530px;
+		width: 563px;
+	}
+
+	.praktik {
+		width: 582px;
+		top: 62px;
+		left: 8px;
+	}
+	
+
+	.work_info-element-circle {
+		top: 355px;
+		left: 50px;
+	}
+
+	.powtor {
+		width: 424px;
+		left: 555px;
+		top: 72px;
+	}
+
+	.work_info-design-2 {
+		position: absolute;
+		right: 354px;
+		top: 34px;
+		width: 68px;
+	}
+
+	.work_info-design img {
+		width: 68px;
+	}
+
+	.work_info-element-bagel {
+		left: 512px;
+		top: -42px;
+	}
+
+	.work_info-design-bagel {
+		bottom: -140px;
+		right: 320px;
+	}
+}

@@ -1,0 +1,290 @@
+.logo-yes {
+	margin: 27px 95px 0 25px;
+}
+
+.phone-number {
+	font-family: "Gilroy-Light";
+	padding: 18px 0 8px 0;
+}
+
+.logo-yes,
+.phone-number,
+.call-link {
+	float: left;
+}
+
+.call-link {
+	position: relative;
+	color: #f63244;
+}
+
+.call-link:after {
+	position: absolute;
+	content: "";
+    display: table;
+    clear: both;
+	width: 124px;
+	height: 2px;
+	background-color: #fa8895;
+	left: 0;
+	bottom: -5px;
+}
+
+.London-photo {
+	margin: 36px 0 0 37px;
+}
+
+.circle {
+	position: absolute;
+	top: 107px;
+	left: 264px;
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background-color: #2429ff;
+}
+
+.bagel {
+	position: absolute;
+	top: 284px;
+	left: 29px;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	border: 10px solid #2429ff;
+}
+/*Achtung*/
+.title-page-first_t {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16pt;
+	padding: 10px 0;
+}
+
+.title-page-second_t {
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18pt;
+}
+/*Achtung*/
+
+.title-page-second_t:after {
+	position: absolute;
+	content: "";
+    display: table;
+    clear: both;
+	width: 64px;
+	height: 7px;
+	background-color: #f5112c;
+	left: 50%;
+	bottom: -26px;
+	transform: translateX(-50%);
+}
+
+.title-page-text {
+	font-size: 14pt;
+	text-align: center;
+	padding-top: 44px;
+}
+
+.title-page-btn {
+	margin: 16px 0 40px 15px;
+	width: 290px;
+	height: 62px;
+	border-radius: 40px;
+	background-color: #f5112c;
+	color: white;
+	box-shadow: 3px 5px 10px #fb94a3;
+	z-index: 9999;
+}
+
+.title-page {
+	position: relative;
+}
+
+.adress,
+.english-yes,
+.title-page-wolna {
+	display: none;
+}
+
+@media screen and (min-width:1300px) {
+	.logo-yes {
+		margin: 0 116px 0 282px;
+	}
+
+	header .container {
+		display: flex;
+		height: 91px;
+		align-items: center;
+	}
+
+	.phone-number {
+		margin: 0 30px ;
+		padding: 0;
+	}
+
+	.adress {
+		display: block;
+	}
+
+	.call-link:after {
+		width: 137px;
+	}
+
+	p,span,a {
+		font-size: 13pt;
+	}
+
+	.english-yes {
+		display: block;
+		top: 36px;
+		position: absolute;
+	}
+
+	.London-photo {
+		height: 400px;
+		margin: 0 0 0 214px;
+	}
+
+	.title-page-first_t {
+		padding: 0;
+		text-align: left;
+		margin: 63px 500px 20px 49px;
+	}
+
+	.title-page-second_t {
+		padding: 0;
+		text-align: left;
+		width: 345px;
+		margin-left: 49px;
+	}
+
+	.title-page-second_t,
+	.title-page-btn,
+	.London-photo,
+	.title-page-first_t,
+	.title-page-text {
+		float: left;
+	}
+
+	.title-page-second_t:after {
+		left: 0;
+		transform: none;
+	}
+
+	.title-page-text {
+		text-align: left;
+		font-size: 13pt;
+		width: 362px;
+		padding: 0;
+		margin: 53px 200px 74px 49px;
+	}
+
+	.title-page-btn {
+		margin: 0 0 66px 49px;
+	} 
+
+	.bagel {
+		top: 162px;
+		left: 87px;
+		width: 55px;
+		border: 17px solid #2429ff;
+		height: 55px;
+	}
+
+	.circle {
+		left: 892px;
+		top: 0;
+	} 
+
+	.title-page-wolna {
+		display: block;
+		position: absolute;
+		right: 213px;
+		bottom: 147px;
+		width: 147px;
+	}
+}
+
+	.visible {
+		display: none;
+	}
+
+@media screen and (min-width: 1920px) {
+	.english-yes {
+		width: 1920px; 
+	}
+	
+	.visible {
+		display: block;
+	}
+
+	.invisible {
+		display: none;
+	} 
+
+	.London-photo {
+		height: 682px;
+		margin-left: 366px;
+	}
+
+	.logo-yes {
+		margin: 0 402px 0 392px;
+	}
+
+	header .container  {
+		height: 91px;
+	}
+
+	.phone-number {
+		margin: 0 44px 0 38px;	
+	}
+
+	p,span,a,button,h3 {
+		font-size: 14pt;
+	}
+
+	.title-page-text {
+		font-size: 14pt;
+		width: 410px;
+		margin: 64px 200px 100px 49px;
+	}
+
+	.call-link:after {
+		width: 145px;
+	}
+
+	.title-page-first_t {
+		font-size: 20pt;
+		margin: 190px 400px 26px 49px;
+	}
+
+	.title-page-second_t {
+		font-size: 24pt;
+		margin-right: 200px;
+	}
+
+	.title-page-btn {
+		width: 372px;
+		height: 70px;
+		margin-bottom: 196px;
+	}
+
+	.bagel {
+		left: 284px;
+		top: 246px;
+	}
+
+	.circle {
+		left: 1448px;
+		top: 78px;
+	}
+
+	.title-page-wolna {
+		bottom: 302px;
+		right: 390px;
+	}
+	
+}

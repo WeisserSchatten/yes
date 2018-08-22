@@ -1,0 +1,46 @@
+body,
+section,
+footer,
+h1,
+h2,
+h3,
+div,
+ul,
+a,
+p,
+button {
+	outline: none;
+	margin: 0;
+	font-family: "Gilroy-Light";
+	text-decoration: none;
+}
+
+/*@font-face {
+	font-family: "Mont";
+	src: url("../fonts/Mont/Mont_Regular.otf");
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Mont";
+	src: url("../fonts/Mont/Mont_Bold.otf");
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: "Mont";
+	src: url("../fonts/Mont/Mont_Light.otf");
+	font-weight: 300;
+}*/
+
+@font-face{
+	font-family: "Gilroy-Light";
+	src: url("../fonts/Gilroy-Light.otf");
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+

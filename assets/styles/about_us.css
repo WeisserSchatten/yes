@@ -1,0 +1,166 @@
+.about_us-title {
+	text-align: center;
+	font-size: 27pt;
+	margin-bottom: 36px;
+}
+
+.our_teachers-photo {
+	margin: 0 0 24px 3px;
+}
+
+.our_teachers {
+	margin: 42px 21px 0 14px;
+}
+
+.our_teachers:first-child {
+	margin: 0 0 0 14px;
+}
+
+.our_teachers-title {
+	font-size: 11pt;
+	margin: 24px 0 16px 0;
+}
+
+@media screen and (min-width: 1300px) {
+	.about_us {
+		position: relative;
+		overflow: hidden;
+	}
+
+	.about_us:after {
+		position: absolute;
+		left: 143px;
+		top: 226px;
+		content: "";
+		clear: both;
+		display: table;
+		width: 24px;
+    	height: 24px;
+    	border-radius: 50%;
+    	background-color: #2429ff;
+	}
+
+	.about_us:before {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 238px;
+		width: 100%;
+		background-color: #e9e9e9;
+		height: 2px;
+		content: "";
+		clear: both;
+		display: table;
+		z-index: -1;
+	}
+
+	.our_teachers:first-child {
+		margin: 0;
+		margin-top: 46px;
+	}
+
+	.about_us-title {
+		text-align: left;
+		margin-bottom: 10px;
+	}
+
+	.our_teachers {
+		float: left;
+		margin: 0;
+		margin-top: 46px;
+		width: 346px;
+	}
+
+	.our_teachers-2 {
+		margin-left: 31px;
+	}
+
+	.our_teachers-photo {
+		margin: 0;
+		width: 346px;
+	}
+
+	.our_teachers-title {
+		margin: 32px 0 21px 0;
+		font-size: 13pt;
+	}
+
+	.about_us-design {
+		position: absolute;
+		top: 819px;
+		right: 267px;
+		width: 67px;
+	}
+
+	.about_us-wolna {
+		width: 67px;
+	}
+
+	.about_us-bagel {
+		position: absolute;
+		width: 281px;
+		height: 281px;
+		border: 76px solid #f5f5f5;
+		border-radius: 50%;
+		top: 577px;
+		right: -128px;
+		z-index: -1;
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	.about_us-title {
+		font-size: 34pt;
+		margin: 122px 0 60px 0 ;
+	}
+
+	.our_teachers {
+		margin: 0 0 82px 30px;
+		width: 362px;
+	}
+
+	.our_teachers:first-child {
+		margin: 0;
+		margin-bottom: 82px;
+		width: 362px;
+	}
+
+	.our_teachers-photo {
+		width: 362px;
+	}
+
+	.our_teachers-title {
+		margin: 32px 0 21px 0;
+		font-size: 14pt;
+	}
+
+	.about_us-wolna-2 {
+		position: absolute;
+		right: 610px;
+		width: 148px;
+	}
+
+	.about_us-wolna {
+		margin-top: 3px;
+	}
+
+	.about_us:after {
+		top: 316px;
+		left: 243px;
+	}
+
+	.about_us:before {
+		width: 1490px;
+		top: 328px;
+	}
+
+	.about_us-bagel {
+		right: 155px;
+		top: 67px;
+	}
+
+	.about_us-design {
+		top: 370px;
+		right: 153px;
+	}
+}

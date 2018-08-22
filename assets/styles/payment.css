@@ -1,0 +1,295 @@
+.payment-title {
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18pt;
+}
+
+
+.title {
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18pt;
+}
+
+.title:after {
+	position: absolute;
+	content: "";
+    display: table;
+    clear: both;
+	width: 64px;
+	height: 7px;
+	background-color: #f5112c;
+	left: 50%;
+	bottom: -26px;
+	transform: translateX(-50%);
+}
+
+.payment {
+	margin-bottom: 61px;
+}
+
+.price {
+	text-align: center;
+	font-size: 17pt;
+	color: #f8717a;
+	margin: 38px 0 14px 0;
+}
+
+.price-info {
+	text-align: center;
+	margin: 0 20px 40px 20px;
+	font-size: 11pt;
+}
+
+.h2-title {
+	margin: 35px 0 20px 0;
+	text-align: center;
+	font-size: 11pt;
+}
+
+
+.text {
+	width: 256px;
+	margin-left: 33px;
+}
+
+.text p {
+	text-align: center;
+}
+
+.work_info-element-title {
+	margin: 0 0 16px 0 ;
+}
+
+.klein-title {
+	margin: 27px 0 18px 0;
+}
+
+.clock-block {
+	position: relative;
+	margin: 18px 0 44px 0;
+}
+
+.clock-block:after {
+	position: absolute;
+	content: "";
+    display: table;
+    clear: both;
+    width: 152px;
+    height: 152px;
+    border-radius: 50%;
+    top: 90px;
+    left: 44px;
+    z-index: -1;
+    border: 38px solid #f5f5f5;
+}
+
+.clock-block:before {
+	position: absolute;
+	content: "";
+    display: table;
+    clear: both;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 64px;
+    left: 64px;
+    border: 10px solid #2429ff;
+}
+
+.wolna {
+	position: absolute;
+	top: 227px;
+	left: 197px;
+}
+
+
+@media screen and (min-width: 1300px) {
+	.clock {
+		margin-top: 23px;
+		width: 372px;
+	}
+	
+	.clock-block,
+	.payment-block-info,
+	.payment-title-part {
+		float: left;
+	}
+
+	.clock-block:after {
+		top: 204px;
+		left: -138px;
+    	border: 91px solid #f5f5f5;
+		width: 340px;
+		height: 340px;
+	}
+
+	.clock-block:before {
+		top: 145px;
+		left: -91px;
+		width: 91px;
+		height: 91px;
+    	border: 25px solid #2429ff;
+	}
+
+	.wolna {
+		left: 226px;
+		top: 615px;
+		width: 145px;
+	}
+
+	.payment-title {
+		text-align: left;
+	}
+
+	.price {
+		margin: 64px 0 41px 0;
+		font-size: 21pt;
+		text-align: left;
+	}
+
+	.payment-title-part,
+	.payment-block-info {
+		position: relative;
+		width: 600px;
+		margin-left: 34px;
+	}
+
+	.title {
+		text-align: left;
+		font-size: 23pt;
+	}
+
+	.title:after {
+		left: 0;
+		transform: none;
+	}
+
+	.payment-title-2 {
+		margin-top: 61px;
+	}
+
+	.price-info {
+		margin: 0px 0 42px 0;
+		font-size: 13pt;
+		text-align: left;
+	}
+
+	.payment-answer-img {
+		position: absolute;
+		left: 372px;
+	}
+
+	.payment-info {
+		margin-top: 38px;
+		height: 121px;
+		width: 280px;
+	}
+
+	.payment-info:first-child {
+		margin-top: 0;
+	}
+
+
+	.payment-info-title {
+		font-size: 13pt;
+		margin: 0;
+		margin-bottom: 24px;
+		text-align: left;
+	}
+
+	.payment-info-text {
+		margin: 0;
+		width: 280px;
+	}
+
+	.payment {
+		margin-bottom: 100px;
+	}
+
+	.payment-info-text p {
+		text-align: left;
+		font-size: 13pt;
+	}
+	
+	.payment-block-info-part {
+		float: left;
+	}
+
+	.payment-block-info-part:last-child {
+		margin-left: 39px;
+	}
+
+
+}
+
+@media screen and (min-width: 1920px) {
+	.clock {
+		width: 734px;
+		margin: 0;
+	}
+
+	.clock-block:after {
+		top: 250px;
+		left: 64px;
+    	border: 112px solid #f5f5f5;
+		width: 414px;
+		height: 414px;
+	}
+
+	.title {
+		font-size: 34pt;
+	}
+
+	.clock-block:before {
+		top: 176px;
+		left: 167px;
+		width: 112px;
+		height: 112px;
+    	border: 32px solid #2429ff;
+	}
+
+	.wolna {
+		top: 747px;
+		left: 581px;
+	}
+
+	.payment-title-2 {
+		margin-top: 145px;
+	}
+
+	.payment-answer-img {
+		left: 558px;
+		top: 68px;
+		width: 144px;
+	}
+
+	.payment-title-part, .payment-block-info {
+		width: 750px;
+	}
+
+	.price {
+		font-size: 30pt;
+		margin: 100px 0 30px 0;
+	}
+
+	.price-info,
+	.payment-info-title ,
+	.payment-info-text {
+		font-size: 15pt;
+	}
+
+	.price-info {
+		margin-bottom: 49px;
+	}
+
+	.payment-info {
+		width: 348px;
+	}
+
+	.payment {
+		margin-bottom: 88px;
+	}
+}

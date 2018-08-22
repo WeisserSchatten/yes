@@ -1,0 +1,72 @@
+.netz {
+	display: inline-block;
+	margin-left: 22px;
+}
+
+.netz:first-child {
+	margin-left: 65px;
+}
+
+.end {
+	background-color: #f8f8f8;
+	width: 100%;
+}
+
+.end-info {
+	text-align: center;
+	font-size: 11pt;
+}
+
+.end-photo {
+	margin: 24px 0 27px 0;
+}
+
+.end-img {
+	margin: 55px 0 22px 128px;
+}
+
+.phone-number-end {
+	margin: 0 0 0 96px;
+	padding: 0;
+}
+
+.call-link-end{
+	margin: 15px 0 70px 99px;
+}
+
+@media screen and (min-width: 1300px) {
+	.end-img {
+		margin: 56px 0 22px 0;
+	}
+	
+	.end-part {
+		margin-left: 289px;
+	}
+	
+	.end-part-second {
+		margin-left: 305px;
+		width: 200px;
+	}
+
+
+	.end-part-second,
+	.end-part {
+		float: left;
+	}
+
+	.end-photo {
+		margin: 56px 0 18px 0;
+	}
+
+	.netz:first-child {
+		margin-left: 0;
+	}
+
+	.phone-number-end {
+		margin-left: 52px;
+	}
+
+	.call-link-end {
+		margin: 18px 0 48px 56px;
+	}
+}
